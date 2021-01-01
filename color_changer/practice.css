@@ -1,0 +1,21 @@
+h1 {
+	font-size: 180px;
+	letter-spacing: 0.1em;
+	font-weight: bolder;
+	text-transform: uppercase;
+}
+body {
+	position: fixed;
+	background-color: black;
+	display: flex;
+	height: 100vh;
+	width: 100vw;
+	justify-content: center;
+	align-items: center;
+}
+span {
+	text-transform: uppercase;
+}
+.letter {
+	transition: color 1000ms;
+}
