@@ -1,0 +1,30 @@
+body {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+#grid {
+	width: auto;
+	height: auto;
+	display: grid;
+	grid-template-columns: 10vw 10vw 10vw 10vw 10vw;
+	grid-template-rows: 20vh 20vh 20vh 20vh 20vh;
+	justify-items: center;
+	align-content: center;
+}
+.card {
+	height: 18vh;
+	width: 9vw;
+	background-color: black;
+	border-radius: 30px;
+}
+.blank {
+	height: 18vh;
+	width: 9vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 80px;
+	font-weight: bolder;
+}
